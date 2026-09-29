@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đăng ký | JWT Nimbus</title><link rel="stylesheet" href="/css/style.css"><script src="/js/mainjs.js" defer></script></head>
+<body data-page="register"><header class="top"><a href="/login" class="brand"><span class="mark">N</span> JWT <strong>Nimbus</strong></a><span class="pill">WEBPR330479 · 23162061</span></header>
+<main class="auth-layout"><section class="intro"><div class="eyebrow">TẠO TÀI KHOẢN</div><h1>Bắt đầu bài<br>thực hành JWT.</h1><p>Tạo tài khoản để thử đăng nhập, xem hồ sơ và gọi API danh sách người dùng.</p><div class="note">Mật khẩu được lưu dưới dạng mã băm BCrypt. Token có thời hạn mặc định 1 giờ.</div></section>
+<section class="card"><h2>Đăng ký</h2><p class="muted">Điền thông tin của bạn bên dưới.</p><div id="feedback" role="status" aria-live="polite" hidden></div><form id="register-form">
+<label for="fullName">Họ và tên</label><input id="fullName" name="fullName" maxlength="50" autocomplete="name" required>
+<label for="email">Email</label><input id="email" name="email" type="email" autocomplete="username" maxlength="100" required>
+<label for="password">Mật khẩu</label><input id="password" name="password" type="password" autocomplete="new-password" minlength="6" maxlength="72" required><small>Tối thiểu 6 ký tự, tối đa 72 byte UTF-8.</small>
+<button type="submit">Tạo tài khoản <span aria-hidden="true">→</span></button></form><p class="switch">Đã có tài khoản? <a href="/login">Đăng nhập</a></p></section></main><footer>Spring Boot 3 · Spring Security 6 · Nimbus JOSE + JWT</footer></body></html>

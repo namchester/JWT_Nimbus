@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: vn.iotstar.AuthenticationIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.52 s -- in vn.iotstar.AuthenticationIntegrationTest
+
+
+-------------------------------------------------------------------------------
+Test set: vn.iotstar.JwtServiceTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.259 s -- in vn.iotstar.JwtServiceTest

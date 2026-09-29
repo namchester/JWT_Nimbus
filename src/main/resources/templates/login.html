@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đăng nhập | JWT Nimbus</title><link rel="stylesheet" href="/css/style.css"><script src="/js/mainjs.js" defer></script></head>
+<body data-page="login"><header class="top"><a href="/login" class="brand"><span class="mark">N</span> JWT <strong>Nimbus</strong></a><span class="pill">WEBPR330479 · 23162061</span></header>
+<main class="auth-layout"><section class="intro"><div class="eyebrow">BÀI THỰC HÀNH 04 / JSON WEB TOKEN</div><h1>Một lần đăng nhập.<br>Truy cập với JWT.</h1><p>Thực hành xác thực người dùng với Spring Security và thư viện Nimbus.</p><ol class="steps"><li>Đăng ký tài khoản</li><li>Đăng nhập và nhận token</li><li>Gửi Bearer token để truy cập API</li></ol><div class="token-shape"><span>Header</span><b>.</b><span>Payload</span><b>.</b><span>Signature</span></div></section>
+<section class="card"><div class="eyebrow">CHÀO MỪNG BẠN</div><h2>Đăng nhập</h2><p class="muted">Nhập tài khoản đã đăng ký để tiếp tục.</p><div id="feedback" role="status" aria-live="polite" hidden></div>
+<form id="login-form"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="username" maxlength="100" placeholder="nam@example.com" required>
+<label for="password">Mật khẩu</label><input id="password" name="password" type="password" autocomplete="current-password" maxlength="72" required>
+<button type="submit" id="Login">Đăng nhập <span aria-hidden="true">→</span></button></form><p class="switch">Chưa có tài khoản? <a href="/register">Đăng ký ngay</a></p></section></main><footer>Spring Boot 3 · Spring Security 6 · Nimbus JOSE + JWT</footer></body></html>
